@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+        <!-- Water droplet outer glow/body -->
+        <path
+            android:fillColor="#E0F7FA"
+            android:pathData="M54,16 C54,16 26,48 26,68 C26,83.46 38.54,96 54,96 C69.46,96 82,83.46 82,68 C82,48 54,16 54,16 Z" />
+        <!-- Inner Water droplet gradient/accent -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M54,26 C54,26 32,54 32,70 C32,82.15 41.85,92 54,92 C66.15,92 76,82.15 76,70 C76,54 54,26 54,26 Z" />
+        <!-- Droplet highlight -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M44,46 C41,52 38,60 38,68 C38,71 39,74 41,76 C40.5,74 40,71 40,68 C40,58 44,48 46,44 C45,44.5 44.5,45.2 44,46 Z" />
+        <!-- Puzzle / Target center symbol -->
+        <!-- Center Focus Ring -->
+        <path
+            android:fillColor="#01579B"
+            android:pathData="M54,52 C45.16,52 38,59.16 38,68 C38,76.84 45.16,84 54,84 C62.84,84 70,76.84 70,68 C70,59.16 62.84,52 54,52 Z M54,78 C48.48,78 44,73.52 44,68 C44,62.48 48.48,58 54,58 C59.52,58 64,62.48 64,68 C64,73.52 59.52,78 54,78 Z" />
+        <!-- Center Target / Star point -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M54,62 L56,66 L60,68 L56,70 L54,74 L52,70 L48,68 L52,66 Z" />
+    </group>
+</vector>
